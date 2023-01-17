@@ -70,3 +70,42 @@ index += 1;
 sakinys += '. ';
 
 console.log(sakinys);
+
+const sakinys2 = 'Reikia nupirkti: ' + vegs.join(', ') + '.';
+console.log(sakinys2);
+
+const sakinys3 = `Reikia nupirkti: ${vegs.join(', ')}.`
+console.log(sakinys3);
+
+
+console.log('---------------------');
+
+//  0, 1, 2
+// 10, 2, 8
+
+const jonas = [];
+console.log(jonas);
+
+jonas.push(10);
+console.log(jonas);
+
+jonas.push(2);
+console.log(jonas);
+
+jonas.push(8);
+console.log(jonas);
+
+const arTuri2 = jonas.includes(2);
+console.log(arTuri2);
+
+const kelintasYra2 = jonas.indexOf(2);
+console.log(kelintasYra2);
+
+const kelintasYra10 = jonas.indexOf(10);
+console.log(kelintasYra10);
+
+const kelintasYra8 = jonas.indexOf(8);
+console.log(kelintasYra8);
+
+const kelintasYra7 = jonas.indexOf(7);
+console.log(kelintasYra7);
