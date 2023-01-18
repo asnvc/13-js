@@ -23,3 +23,13 @@ console.log(typeof ['asdasdas']);
 console.log(typeof [true]);
 
 console.log(typeof undefined);
+
+console.log('----------');
+console.log(Array.isArray(5));
+console.log(Array.isArray('sgeret'));
+console.log(Array.isArray(true));
+console.log(Array.isArray(function () { }));
+console.log(Array.isArray(null));
+console.log(Array.isArray({}));
+
+console.log(Array.isArray([]));
