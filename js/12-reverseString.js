@@ -29,8 +29,13 @@ function reverseString(str){
     return ats;
     }
 
-console.log(reverseString());
-console.log(reverseString(5));
-console.log(reverseString(true));
-console.log(reverseString(['asdsff']));
-console.log(reverseString(''));
+    console.log(reverseString());
+    console.log(reverseString(5));
+    console.log(reverseString(true));
+    console.log(reverseString(['asdsff']));
+    console.log(reverseString(''));
+    
+    console.log(reverseString('abc'), '-->', 'cba');
+    console.log(reverseString('labas'), '-->', 'sabal');
+    console.log(reverseString('alus'), '-->', 'sula');
+    console.log(reverseString('x'), '-->', 'x');
