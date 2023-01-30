@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "class": "nodemon ./js/24-class.js",
     "ciklai": "nodemon ./js/21-ciklai.js",
     "arrow": "nodemon ./js/20-arrow.js",
     "arrayMethods": "nodemon ./js/19-arrayMethods.js",
